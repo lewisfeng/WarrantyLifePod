@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WarrantyLifePod'
-  s.version          = '0.2.4'
+  s.version          = '0.2.6'
   s.swift_version    = '4.1'
   s.summary          = 'Quick setup — if you’ve done this kind of thing before'
 
@@ -41,4 +41,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Alamofire'
   s.dependency 'SwiftyJSON'
+  s.dependency 'GzipSwift'
+  
 end
