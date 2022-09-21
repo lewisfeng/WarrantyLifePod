@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WarrantyLifePod'
-  s.version          = '0.1.11'
+  s.version          = '0.2.1'
   s.swift_version    = '4.1'
   s.summary          = 'Quick setup — if you’ve done this kind of thing before'
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   Trivia game that support up to 8 people using peer-to-peer technology and display on the second screen (not mirroring)
                        DESC
 
-  s.homepage         = 'https://github.com/lewisfengWarrantyLifePod'
+  s.homepage         = 'https://github.com/lewisfeng/WarrantyLifePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'YI BIN FENG' => 'lewis@warrantylife.com' }
