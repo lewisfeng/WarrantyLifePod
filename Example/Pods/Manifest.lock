@@ -1,15 +1,22 @@
 PODS:
-  - WarrantyLifePod (0.1.0)
+  - Alamofire (5.6.2)
+  - WarrantyLifePod (0.1.6):
+    - Alamofire
 
 DEPENDENCIES:
   - WarrantyLifePod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   WarrantyLifePod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WarrantyLifePod: d638099c289c887a98bd82f7d8f6e3a75e760c1e
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  WarrantyLifePod: 9002cf83096f5313bbddcfcc7d9ebb3e0086b6b6
 
 PODFILE CHECKSUM: 4ad81911a2babc39472092aaedfddfd7c8eb9b74
 
