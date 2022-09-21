@@ -49,6 +49,8 @@
 		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B662874FA75A359040A90358ABA9F6 /* NetworkReachabilityManager.swift */; };
 		A3CEE8324948497036C4E123B21CBC59 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4969440712AFAC5D9EF721B15F9D5 /* SwiftyJSON.swift */; };
 		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9AF050B04E2182F5DDFFC9659A2A6 /* Protected.swift */; };
+		ACC1DDC028DBC1D7000967F5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = ACC1DDBF28DBC1D7000967F5 /* .gitkeep */; };
+		ACC1DDC228DBC20B000967F5 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1DDC128DBC20B000967F5 /* NetworkRouter.swift */; };
 		B2B6A6DDDD59B539F3AE39AE19864863 /* WarrantyLifePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F19AFF9A9C884D309A51159759A8CC2A /* WarrantyLifePod-dummy.m */; };
 		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FCD2FFB704A58066AFD3CC732EE770 /* Request.swift */; };
 		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22DE5CFE095C7716D8D5E62D9E105B /* ServerTrustEvaluation.swift */; };
@@ -175,7 +177,7 @@
 		6F706BC544B565F7683485793A94FCA3 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
 		78E3B9F7D4363067165EBB70D46DF492 /* WarrantyLifePod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WarrantyLifePod.debug.xcconfig; sourceTree = "<group>"; };
 		7E3DCCD6063CAC77D942194BD05F33CC /* Pods-WarrantyLifePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WarrantyLifePod_Tests-dummy.m"; sourceTree = "<group>"; };
-		7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WarrantyLifePod; path = WarrantyLifePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WarrantyLifePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4C79DED302C60A58C989C781894BD3 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		83077C50E42164D1BA48FB91377257CF /* Pods-WarrantyLifePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WarrantyLifePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		84E5BA67C60B162E7140A6BE60991474 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
@@ -190,6 +192,8 @@
 		9FB0E43955F119C84BBCED8CC04EE855 /* GzipSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GzipSwift.release.xcconfig; sourceTree = "<group>"; };
 		A4A4C3D04AB08373F1E35DAFF24648DA /* Pods-WarrantyLifePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WarrantyLifePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6D8326458150D0668FDD8636CB18395 /* GzipSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GzipSwift-umbrella.h"; sourceTree = "<group>"; };
+		ACC1DDBF28DBC1D7000967F5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		ACC1DDC128DBC20B000967F5 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 		B457DA3AEFE06EFCCCB16B296820B443 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		BA78E4D11785834CF1FB437EDDA5B2C2 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		BA8560AE8036747E29202AB6B4D0D8C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -313,6 +317,7 @@
 		4A459F5CB24120BAEA3E30DA00C6A508 /* WarrantyLifePod */ = {
 			isa = PBXGroup;
 			children = (
+				ACC1DDBE28DBC1D7000967F5 /* Classes */,
 				F018EF2778992ED48D761909DB8D7BCA /* Pod */,
 				C481CCA054C3D837A4D13A41803A8142 /* Support Files */,
 			);
@@ -411,7 +416,7 @@
 				E69CC91B9069FB2977EC11294994DB6C /* Pods-WarrantyLifePod_Example */,
 				242558678C3F84DC1E04AD5BD99BD65E /* Pods-WarrantyLifePod_Tests */,
 				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
-				7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod */,
+				7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -429,6 +434,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		ACC1DDBE28DBC1D7000967F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACC1DDBF28DBC1D7000967F5 /* .gitkeep */,
+				ACC1DDC128DBC20B000967F5 /* NetworkRouter.swift */,
+			);
+			name = Classes;
+			path = WarrantyLifePod/Classes;
 			sourceTree = "<group>";
 		};
 		B6369E2152EA8C1B3F04CEBEF97E0B29 /* Pods-WarrantyLifePod_Tests */ = {
@@ -687,7 +702,7 @@
 			);
 			name = WarrantyLifePod;
 			productName = WarrantyLifePod;
-			productReference = 7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod */;
+			productReference = 7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -698,6 +713,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F0227E5F3AB865A338C14CA40C576833 = {
+						LastSwiftMigration = 1340;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -755,6 +775,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC1DDC028DBC1D7000967F5 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,6 +803,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B6A6DDDD59B539F3AE39AE19864863 /* WarrantyLifePod-dummy.m in Sources */,
+				ACC1DDC228DBC20B000967F5 /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -912,6 +934,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2172818F8487EF4AA07D671FAF4CD35D /* WarrantyLifePod.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -977,6 +1000,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78E3B9F7D4363067165EBB70D46DF492 /* WarrantyLifePod.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -997,6 +1021,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
