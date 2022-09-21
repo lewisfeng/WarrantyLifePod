@@ -43,6 +43,8 @@
 		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */; };
 		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */; };
 		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */; };
+		ACC1DD5B28DBB8C6000967F5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = ACC1DD5A28DBB8C6000967F5 /* .gitkeep */; };
+		ACC1DD5D28DBB8D0000967F5 /* Kl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1DD5C28DBB8D0000967F5 /* Kl.swift */; };
 		ACC9FDCDED2BE287EBD411918711B020 /* WarrantyLifePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 598FA90E12572AC3477FFD1B7625A22A /* WarrantyLifePod-dummy.m */; };
 		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */; };
 		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */; };
@@ -149,6 +151,8 @@
 		A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		A4A4C3D04AB08373F1E35DAFF24648DA /* Pods-WarrantyLifePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WarrantyLifePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACC1DD5A28DBB8C6000967F5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		ACC1DD5C28DBB8D0000967F5 /* Kl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kl.swift; sourceTree = "<group>"; };
 		BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		BEFF70CF1930FB6FBCBF26454430E46B /* Pods-WarrantyLifePod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WarrantyLifePod_Tests-Info.plist"; sourceTree = "<group>"; };
 		C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
@@ -260,6 +264,7 @@
 		558DEB7F161689F5ED7550B183003A09 /* WarrantyLifePod */ = {
 			isa = PBXGroup;
 			children = (
+				ACC1DD5928DBB8C6000967F5 /* Classes */,
 				C1F5F6600E4892E77E8585C441F01E0C /* Pod */,
 				0F7B01C8EF91D09E09FD35D193101FC9 /* Support Files */,
 				7980E1AEFDFA589CDF958CB10DE05512 /* untitled folder */,
@@ -356,6 +361,16 @@
 				7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC1DD5928DBB8C6000967F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACC1DD5A28DBB8C6000967F5 /* .gitkeep */,
+				ACC1DD5C28DBB8D0000967F5 /* Kl.swift */,
+			);
+			name = Classes;
+			path = WarrantyLifePod/Classes;
 			sourceTree = "<group>";
 		};
 		B6369E2152EA8C1B3F04CEBEF97E0B29 /* Pods-WarrantyLifePod_Tests */ = {
@@ -583,6 +598,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC1DD5B28DBB8C6000967F5 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +671,7 @@
 				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
 				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
 				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				ACC1DD5D28DBB8D0000967F5 /* Kl.swift in Sources */,
 				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
