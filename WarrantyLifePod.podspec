@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WarrantyLifePod'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.swift_version    = '4.1'
   s.summary          = 'Quick setup — if you’ve done this kind of thing before'
 
