@@ -7,4 +7,4 @@
 
 import Foundation
 
-public class Labb2: UIasdLabel {}
+public class Labb2: UILabel {}
