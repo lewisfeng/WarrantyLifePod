@@ -1,7 +1,11 @@
 PODS:
   - Alamofire (5.6.2)
-  - WarrantyLifePod (0.1.6):
+  - GzipSwift (5.1.1)
+  - SwiftyJSON (5.0.1)
+  - WarrantyLifePod (0.2.6):
     - Alamofire
+    - GzipSwift
+    - SwiftyJSON
 
 DEPENDENCIES:
   - WarrantyLifePod (from `../`)
@@ -9,6 +13,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - GzipSwift
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   WarrantyLifePod:
@@ -16,7 +22,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  WarrantyLifePod: 9002cf83096f5313bbddcfcc7d9ebb3e0086b6b6
+  GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  WarrantyLifePod: 1a35ea13bf57090ed7c7e320936c41ea58dcfae9
 
 PODFILE CHECKSUM: 4ad81911a2babc39472092aaedfddfd7c8eb9b74
 

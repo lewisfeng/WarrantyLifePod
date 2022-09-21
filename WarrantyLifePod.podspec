@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WarrantyLifePod'
-  s.version          = '0.2.6'
-  s.swift_version    = '4.1'
+  s.version          = '0.3.0'
+  s.swift_version    = '5.0'
   s.summary          = 'Quick setup — if you’ve done this kind of thing before'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lewisfeng/WarrantyLifePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'WarrantyLifePod/Classes/**/*'
   
