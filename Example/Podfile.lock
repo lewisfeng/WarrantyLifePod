@@ -2,7 +2,7 @@ PODS:
   - Alamofire (5.6.2)
   - GzipSwift (5.1.1)
   - SwiftyJSON (5.0.1)
-  - WarrantyLifePod (0.2.6):
+  - WarrantyLifePod (0.3.0):
     - Alamofire
     - GzipSwift
     - SwiftyJSON
@@ -24,7 +24,7 @@ SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
   GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
-  WarrantyLifePod: 1a35ea13bf57090ed7c7e320936c41ea58dcfae9
+  WarrantyLifePod: 69383fc3a9df9874d4e99687986f63fb034fec4e
 
 PODFILE CHECKSUM: 4ad81911a2babc39472092aaedfddfd7c8eb9b74
 
