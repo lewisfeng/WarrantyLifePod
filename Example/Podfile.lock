@@ -1,0 +1,16 @@
+PODS:
+  - WarrantyLifePod (0.1.0)
+
+DEPENDENCIES:
+  - WarrantyLifePod (from `../`)
+
+EXTERNAL SOURCES:
+  WarrantyLifePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WarrantyLifePod: d638099c289c887a98bd82f7d8f6e3a75e760c1e
+
+PODFILE CHECKSUM: 4ad81911a2babc39472092aaedfddfd7c8eb9b74
+
+COCOAPODS: 1.11.3

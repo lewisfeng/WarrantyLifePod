@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		0AD359429D803E8A36A6AEB6 /* Pods-WarrantyLifePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarrantyLifePod_Example.release.xcconfig"; path = "Target Support Files/Pods-WarrantyLifePod_Example/Pods-WarrantyLifePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1BC14C52EF20D7E72B2451D4 /* Pods-WarrantyLifePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarrantyLifePod_Example.debug.xcconfig"; path = "Target Support Files/Pods-WarrantyLifePod_Example/Pods-WarrantyLifePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		20F9E1D19182D73F4D55E8ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3D246CB468ECF5DB4AEDAE86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		438005B191ACB524C7AA32D5 /* WarrantyLifePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WarrantyLifePod.podspec; path = ../WarrantyLifePod.podspec; sourceTree = "<group>"; };
+		20F9E1D19182D73F4D55E8ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3D246CB468ECF5DB4AEDAE86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		438005B191ACB524C7AA32D5 /* WarrantyLifePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WarrantyLifePod.podspec; path = ../WarrantyLifePod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* WarrantyLifePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarrantyLifePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				87CC30F9482F665CFAADE7E1 /* Pods-WarrantyLifePod_Tests.debug.xcconfig */,
 				C6E158B1E5DCF94AF8A41708 /* Pods-WarrantyLifePod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

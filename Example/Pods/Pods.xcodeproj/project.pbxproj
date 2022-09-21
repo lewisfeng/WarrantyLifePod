@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D301D3A8D9D8173A97233947B4A887 /* Pods-WarrantyLifePod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1291BCB380D632C39CAF99EF27DD9 /* Pods-WarrantyLifePod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EF9B4561E52BAAC7E24C5AD4B9BD045 /* Pods-WarrantyLifePod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AC85BD87EFE88AD4E08FFF91C22F9D /* Pods-WarrantyLifePod_Example-dummy.m */; };
+		4ED73417CD241118D01C977A460250FC /* WarrantyLifePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E46401DFA9B1AAB845C634CA9A74E7CB /* WarrantyLifePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5271BD6B28D943C81145532C12449898 /* Pods-WarrantyLifePod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3DCCD6063CAC77D942194BD05F33CC /* Pods-WarrantyLifePod_Tests-dummy.m */; };
+		536262BE0B43F3D66F05F3A879CFBB98 /* WarrantyLifePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5AFAFFC3B74A296DC1B1D041D9DB19 /* WarrantyLifePod-dummy.m */; };
+		5708C1761F1D1A9300F0E1D87C4133EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A4601B4D16D48036580E449F22C9CF8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C4A975EE709626D4155E68A0570B2194 /* Pods-WarrantyLifePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54AE41C8171291F5002FD37633A08B2A /* Pods-WarrantyLifePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5AF0037C7D469F6E2C5097A29080FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E749549C98D22C11E66852A94DB71EDD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8065FDB372F9A27868CDC1A39B4585 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A4EFFB300F49E64B431DAF01BF3FB98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1E78F3B63021977D72F55CD102B138;
+			remoteInfo = "Pods-WarrantyLifePod_Example";
+		};
+		E7B922C5B8D2B8A7EFA428D1E33D8293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0227E5F3AB865A338C14CA40C576833;
+			remoteInfo = WarrantyLifePod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CE30CA51E676D5F93C508E2E753B78 /* Pods-WarrantyLifePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WarrantyLifePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A774C750E5997D8FEA27ED9BCEBC98E /* Pods-WarrantyLifePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WarrantyLifePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0AD1291BCB380D632C39CAF99EF27DD9 /* Pods-WarrantyLifePod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WarrantyLifePod_Example-umbrella.h"; sourceTree = "<group>"; };
+		0F138A7E9CD6F4EF0961556BBA461D2A /* Pods-WarrantyLifePod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WarrantyLifePod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		210E1C840B73AF7A399C0A4E8EC2954F /* Pods-WarrantyLifePod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WarrantyLifePod_Example-Info.plist"; sourceTree = "<group>"; };
+		242558678C3F84DC1E04AD5BD99BD65E /* Pods-WarrantyLifePod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WarrantyLifePod_Tests"; path = Pods_WarrantyLifePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		360D840564212A7236CC6B7C5D4CE289 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4B558368D347EDD656AAAA517E8CE44A /* WarrantyLifePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WarrantyLifePod.modulemap; sourceTree = "<group>"; };
+		54AE41C8171291F5002FD37633A08B2A /* Pods-WarrantyLifePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WarrantyLifePod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6458389AC3C21C1E26D39E448A6C14B5 /* Pods-WarrantyLifePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WarrantyLifePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69890F4EDB1E16F6112AAAADD3A6316A /* Pods-WarrantyLifePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WarrantyLifePod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6E5A4096F9701BCDF6B0DE5C4A9A782A /* WarrantyLifePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WarrantyLifePod-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E3DCCD6063CAC77D942194BD05F33CC /* Pods-WarrantyLifePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WarrantyLifePod_Tests-dummy.m"; sourceTree = "<group>"; };
+		7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WarrantyLifePod; path = WarrantyLifePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83077C50E42164D1BA48FB91377257CF /* Pods-WarrantyLifePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WarrantyLifePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CCCC7E46E8E5BEAB400725DA96142E7 /* Pods-WarrantyLifePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WarrantyLifePod_Tests.modulemap"; sourceTree = "<group>"; };
+		9B8065FDB372F9A27868CDC1A39B4585 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WarrantyLifePod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4A4C3D04AB08373F1E35DAFF24648DA /* Pods-WarrantyLifePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WarrantyLifePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A5BF02E66C16424D6B23BA2D90E88E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B03A4B769DC09A5E7F1F03ABF18AA037 /* WarrantyLifePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WarrantyLifePod-Info.plist"; sourceTree = "<group>"; };
+		BEFF70CF1930FB6FBCBF26454430E46B /* Pods-WarrantyLifePod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WarrantyLifePod_Tests-Info.plist"; sourceTree = "<group>"; };
+		C44C5127FA2D44696B5C14518D96E8A3 /* Pods-WarrantyLifePod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WarrantyLifePod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C893E8197BAC5E3CA22E7D0355104998 /* Pods-WarrantyLifePod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WarrantyLifePod_Example.modulemap"; sourceTree = "<group>"; };
+		DA4DC11F4257A0EF8D5D7426CC5A705F /* WarrantyLifePod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WarrantyLifePod.debug.xcconfig; sourceTree = "<group>"; };
+		E0A36CA2AFF7481E608C9EBAE77786CE /* WarrantyLifePod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WarrantyLifePod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E439801BEA057CF872BC2B1C1174C4AF /* WarrantyLifePod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WarrantyLifePod.release.xcconfig; sourceTree = "<group>"; };
+		E46401DFA9B1AAB845C634CA9A74E7CB /* WarrantyLifePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WarrantyLifePod-umbrella.h"; sourceTree = "<group>"; };
+		E69CC91B9069FB2977EC11294994DB6C /* Pods-WarrantyLifePod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WarrantyLifePod_Example"; path = Pods_WarrantyLifePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5AFAFFC3B74A296DC1B1D041D9DB19 /* WarrantyLifePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WarrantyLifePod-dummy.m"; sourceTree = "<group>"; };
+		F12BFBA349087A2DF2CEB6961FD3D205 /* Pods-WarrantyLifePod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WarrantyLifePod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5AC85BD87EFE88AD4E08FFF91C22F9D /* Pods-WarrantyLifePod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WarrantyLifePod_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D13C7E5EDA81259F95F8C3CB3A25F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4601B4D16D48036580E449F22C9CF8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E72BFDE7EAF69EB063170A41BE06FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5708C1761F1D1A9300F0E1D87C4133EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAA320ACDF5A14506EF29FEB6817995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AF0037C7D469F6E2C5097A29080FEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008C590A0284BB275F2E1FE6F66E36CF /* WarrantyLifePod */ = {
+			isa = PBXGroup;
+			children = (
+				9B8065FDB372F9A27868CDC1A39B4585 /* ReplaceMe.swift */,
+				27EF5F9F2DAAC36E6560DD395D317BC7 /* Pod */,
+				D0F910566270D4116B7619C15392D14B /* Support Files */,
+			);
+			name = WarrantyLifePod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		27EF5F9F2DAAC36E6560DD395D317BC7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				360D840564212A7236CC6B7C5D4CE289 /* LICENSE */,
+				A5BF02E66C16424D6B23BA2D90E88E92 /* README.md */,
+				E0A36CA2AFF7481E608C9EBAE77786CE /* WarrantyLifePod.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		33EA701B937D266F393DAD28D578D3F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6A1E66340556F4A443B06FD35CBFDC5 /* Pods-WarrantyLifePod_Example */,
+				B6369E2152EA8C1B3F04CEBEF97E0B29 /* Pods-WarrantyLifePod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4827D79E043E2BAA411BA287D6EC747B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				008C590A0284BB275F2E1FE6F66E36CF /* WarrantyLifePod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A10B60FDD7A857CE3FE23FAED9DEC603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E69CC91B9069FB2977EC11294994DB6C /* Pods-WarrantyLifePod_Example */,
+				242558678C3F84DC1E04AD5BD99BD65E /* Pods-WarrantyLifePod_Tests */,
+				7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6369E2152EA8C1B3F04CEBEF97E0B29 /* Pods-WarrantyLifePod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCCC7E46E8E5BEAB400725DA96142E7 /* Pods-WarrantyLifePod_Tests.modulemap */,
+				A4A4C3D04AB08373F1E35DAFF24648DA /* Pods-WarrantyLifePod_Tests-acknowledgements.markdown */,
+				83077C50E42164D1BA48FB91377257CF /* Pods-WarrantyLifePod_Tests-acknowledgements.plist */,
+				7E3DCCD6063CAC77D942194BD05F33CC /* Pods-WarrantyLifePod_Tests-dummy.m */,
+				BEFF70CF1930FB6FBCBF26454430E46B /* Pods-WarrantyLifePod_Tests-Info.plist */,
+				54AE41C8171291F5002FD37633A08B2A /* Pods-WarrantyLifePod_Tests-umbrella.h */,
+				05CE30CA51E676D5F93C508E2E753B78 /* Pods-WarrantyLifePod_Tests.debug.xcconfig */,
+				6458389AC3C21C1E26D39E448A6C14B5 /* Pods-WarrantyLifePod_Tests.release.xcconfig */,
+			);
+			name = "Pods-WarrantyLifePod_Tests";
+			path = "Target Support Files/Pods-WarrantyLifePod_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4827D79E043E2BAA411BA287D6EC747B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A10B60FDD7A857CE3FE23FAED9DEC603 /* Products */,
+				33EA701B937D266F393DAD28D578D3F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F910566270D4116B7619C15392D14B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B558368D347EDD656AAAA517E8CE44A /* WarrantyLifePod.modulemap */,
+				ED5AFAFFC3B74A296DC1B1D041D9DB19 /* WarrantyLifePod-dummy.m */,
+				B03A4B769DC09A5E7F1F03ABF18AA037 /* WarrantyLifePod-Info.plist */,
+				6E5A4096F9701BCDF6B0DE5C4A9A782A /* WarrantyLifePod-prefix.pch */,
+				E46401DFA9B1AAB845C634CA9A74E7CB /* WarrantyLifePod-umbrella.h */,
+				DA4DC11F4257A0EF8D5D7426CC5A705F /* WarrantyLifePod.debug.xcconfig */,
+				E439801BEA057CF872BC2B1C1174C4AF /* WarrantyLifePod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WarrantyLifePod";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A1E66340556F4A443B06FD35CBFDC5 /* Pods-WarrantyLifePod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C893E8197BAC5E3CA22E7D0355104998 /* Pods-WarrantyLifePod_Example.modulemap */,
+				0F138A7E9CD6F4EF0961556BBA461D2A /* Pods-WarrantyLifePod_Example-acknowledgements.markdown */,
+				C44C5127FA2D44696B5C14518D96E8A3 /* Pods-WarrantyLifePod_Example-acknowledgements.plist */,
+				F5AC85BD87EFE88AD4E08FFF91C22F9D /* Pods-WarrantyLifePod_Example-dummy.m */,
+				F12BFBA349087A2DF2CEB6961FD3D205 /* Pods-WarrantyLifePod_Example-frameworks.sh */,
+				210E1C840B73AF7A399C0A4E8EC2954F /* Pods-WarrantyLifePod_Example-Info.plist */,
+				0AD1291BCB380D632C39CAF99EF27DD9 /* Pods-WarrantyLifePod_Example-umbrella.h */,
+				0A774C750E5997D8FEA27ED9BCEBC98E /* Pods-WarrantyLifePod_Example.debug.xcconfig */,
+				69890F4EDB1E16F6112AAAADD3A6316A /* Pods-WarrantyLifePod_Example.release.xcconfig */,
+			);
+			name = "Pods-WarrantyLifePod_Example";
+			path = "Target Support Files/Pods-WarrantyLifePod_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BDB3E272ABC6235608E699364CBB7A67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A975EE709626D4155E68A0570B2194 /* Pods-WarrantyLifePod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EA0749AD56CE13FD1C86240F8CBD86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D301D3A8D9D8173A97233947B4A887 /* Pods-WarrantyLifePod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93587A4A2F083E8DBDF11CB9E4CEFF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED73417CD241118D01C977A460250FC /* WarrantyLifePod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3CF6083EFEC5B2D7D9DEEB3EF2D423CC /* Pods-WarrantyLifePod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A03E3E1272B463F6CA707B69A6B115 /* Build configuration list for PBXNativeTarget "Pods-WarrantyLifePod_Tests" */;
+			buildPhases = (
+				BDB3E272ABC6235608E699364CBB7A67 /* Headers */,
+				DB3E520C070D8F2FE5089CA5717128F6 /* Sources */,
+				3E72BFDE7EAF69EB063170A41BE06FD3 /* Frameworks */,
+				28B9318E54E804E0C5D74CF63C6B0742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817FEAD52E503302057D53C4E17070E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-WarrantyLifePod_Tests";
+			productName = Pods_WarrantyLifePod_Tests;
+			productReference = 242558678C3F84DC1E04AD5BD99BD65E /* Pods-WarrantyLifePod_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E1E78F3B63021977D72F55CD102B138 /* Pods-WarrantyLifePod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32958EA97DEC91B7B71C4EC7ABF6DA20 /* Build configuration list for PBXNativeTarget "Pods-WarrantyLifePod_Example" */;
+			buildPhases = (
+				D0EA0749AD56CE13FD1C86240F8CBD86 /* Headers */,
+				45648CF8759461EC529C741691D6F663 /* Sources */,
+				2D13C7E5EDA81259F95F8C3CB3A25F8D /* Frameworks */,
+				AA02C826EC6F042778D628EED4404F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF47D160E328591E74E417B0C8D0F44 /* PBXTargetDependency */,
+			);
+			name = "Pods-WarrantyLifePod_Example";
+			productName = Pods_WarrantyLifePod_Example;
+			productReference = E69CC91B9069FB2977EC11294994DB6C /* Pods-WarrantyLifePod_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0227E5F3AB865A338C14CA40C576833 /* WarrantyLifePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D672224A20F4D5A7DF2FDCD0D8AAB37 /* Build configuration list for PBXNativeTarget "WarrantyLifePod" */;
+			buildPhases = (
+				F93587A4A2F083E8DBDF11CB9E4CEFF2 /* Headers */,
+				5FA7F6493AA65467BD266610A2E4B445 /* Sources */,
+				5DAA320ACDF5A14506EF29FEB6817995 /* Frameworks */,
+				810F3057AAC8662B47C31042B50CA6FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarrantyLifePod;
+			productName = WarrantyLifePod;
+			productReference = 7F26F2E6AE0CC0997C2F3921710B376E /* WarrantyLifePod */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A10B60FDD7A857CE3FE23FAED9DEC603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E1E78F3B63021977D72F55CD102B138 /* Pods-WarrantyLifePod_Example */,
+				3CF6083EFEC5B2D7D9DEEB3EF2D423CC /* Pods-WarrantyLifePod_Tests */,
+				F0227E5F3AB865A338C14CA40C576833 /* WarrantyLifePod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28B9318E54E804E0C5D74CF63C6B0742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810F3057AAC8662B47C31042B50CA6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA02C826EC6F042778D628EED4404F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45648CF8759461EC529C741691D6F663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF9B4561E52BAAC7E24C5AD4B9BD045 /* Pods-WarrantyLifePod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA7F6493AA65467BD266610A2E4B445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E749549C98D22C11E66852A94DB71EDD /* ReplaceMe.swift in Sources */,
+				536262BE0B43F3D66F05F3A879CFBB98 /* WarrantyLifePod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3E520C070D8F2FE5089CA5717128F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5271BD6B28D943C81145532C12449898 /* Pods-WarrantyLifePod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		817FEAD52E503302057D53C4E17070E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WarrantyLifePod_Example";
+			target = 3E1E78F3B63021977D72F55CD102B138 /* Pods-WarrantyLifePod_Example */;
+			targetProxy = 7A4EFFB300F49E64B431DAF01BF3FB98 /* PBXContainerItemProxy */;
+		};
+		FDF47D160E328591E74E417B0C8D0F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WarrantyLifePod;
+			target = F0227E5F3AB865A338C14CA40C576833 /* WarrantyLifePod */;
+			targetProxy = E7B922C5B8D2B8A7EFA428D1E33D8293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D9FB58D3E30302D1DB76B7CFF7719E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CE30CA51E676D5F93C508E2E753B78 /* Pods-WarrantyLifePod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WarrantyLifePod_Tests/Pods-WarrantyLifePod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WarrantyLifePod_Tests/Pods-WarrantyLifePod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A1A3C555C80FE1434D2FE23E47DC0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4DC11F4257A0EF8D5D7426CC5A705F /* WarrantyLifePod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WarrantyLifePod/WarrantyLifePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WarrantyLifePod/WarrantyLifePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WarrantyLifePod/WarrantyLifePod.modulemap";
+				PRODUCT_MODULE_NAME = WarrantyLifePod;
+				PRODUCT_NAME = WarrantyLifePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B63E9710AF2FF1C8496F27894A3FC50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E439801BEA057CF872BC2B1C1174C4AF /* WarrantyLifePod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WarrantyLifePod/WarrantyLifePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WarrantyLifePod/WarrantyLifePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WarrantyLifePod/WarrantyLifePod.modulemap";
+				PRODUCT_MODULE_NAME = WarrantyLifePod;
+				PRODUCT_NAME = WarrantyLifePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEC75FD2938FD5E0316501748D29A9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A774C750E5997D8FEA27ED9BCEBC98E /* Pods-WarrantyLifePod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WarrantyLifePod_Example/Pods-WarrantyLifePod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WarrantyLifePod_Example/Pods-WarrantyLifePod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C970C5303F2DEEA28765FB51A0DFA99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6458389AC3C21C1E26D39E448A6C14B5 /* Pods-WarrantyLifePod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WarrantyLifePod_Tests/Pods-WarrantyLifePod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WarrantyLifePod_Tests/Pods-WarrantyLifePod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D57BC24C7A34DECC977E387C38177AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69890F4EDB1E16F6112AAAADD3A6316A /* Pods-WarrantyLifePod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WarrantyLifePod_Example/Pods-WarrantyLifePod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WarrantyLifePod_Example/Pods-WarrantyLifePod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32958EA97DEC91B7B71C4EC7ABF6DA20 /* Build configuration list for PBXNativeTarget "Pods-WarrantyLifePod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC75FD2938FD5E0316501748D29A9C2 /* Debug */,
+				D57BC24C7A34DECC977E387C38177AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D672224A20F4D5A7DF2FDCD0D8AAB37 /* Build configuration list for PBXNativeTarget "WarrantyLifePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1A3C555C80FE1434D2FE23E47DC0C5 /* Debug */,
+				B63E9710AF2FF1C8496F27894A3FC50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A03E3E1272B463F6CA707B69A6B115 /* Build configuration list for PBXNativeTarget "Pods-WarrantyLifePod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9FB58D3E30302D1DB76B7CFF7719E7 /* Debug */,
+				C970C5303F2DEEA28765FB51A0DFA99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

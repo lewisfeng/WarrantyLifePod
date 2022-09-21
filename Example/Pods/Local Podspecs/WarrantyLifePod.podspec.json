@@ -1,0 +1,22 @@
+{
+  "name": "WarrantyLifePod",
+  "version": "0.1.0",
+  "summary": "A short description of WarrantyLifePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YI BIN FENG/WarrantyLifePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YI BIN FENG": "lewis@warrantylife.com"
+  },
+  "source": {
+    "git": "https://github.com/YI BIN FENG/WarrantyLifePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WarrantyLifePod/Classes/**/*"
+}
