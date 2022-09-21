@@ -7,4 +7,4 @@
 
 import Foundation
 
-public class Labb1: UILsdfsdabel {}
+public class Labb1: UILabel {}
